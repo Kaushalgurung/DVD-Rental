@@ -1,0 +1,19 @@
+﻿@model String
+
+@{
+    ViewBag.Title = "Details";
+    String message = (String)ViewData["message"];
+}
+
+<h2>Status of Returned DVD</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        <input type="search" name="id">
+        <button type="submit">Submit</button>
+    </p>
+}
+<div>
+    <h4>@message</h4>
+</div>

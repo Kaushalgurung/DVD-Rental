@@ -1,0 +1,44 @@
+﻿@using RopeysDVD.Models
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<CastMember>
+
+@{
+    ViewBag.Title = "Search DVD";
+    Layout = "_Layout";
+}
+
+<h2>Search DVD</h2>
+@using (Html.BeginForm())
+{
+    <p>
+        <input type="search" name="surname">
+        <button type="submit">Submit</button>
+    </p>
+}
+<table>
+    <thead>
+    <tr>
+        <th>Actor First Name</th>
+        <th>Actor Last Name</th>
+        <th>DVD Title</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Actor.ActorFirstName</td>
+            <td>@item.Actor.ActorSurname</td>
+            <td>@item.DVDTitle.TitleName</td>
+        </tr>
+    }
+    <tr>
+
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model System.Collections.Generic.List<RopeyDVDs.Models.DTO.MemberWithNoLoanDTO>
+
+@{
+    ViewBag.Title = "Member With No Loan for Last 31 days";
+    Layout = "_Layout";
+}
+
+<h2>Member With No Loan for Last 31 days</h2>
+<table>
+    <thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Title</th>
+        <th>Last Date of Loan</th>
+        <th>Days Since Last Loan</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FirstName</td>
+            <td>@item.LastName</td>
+            <td>@item.Address</td>
+            <td>@item.DVDTitle</td>
+            <td>@item.DateOut</td>
+            <td>@item.NumberOfDays</td>
+        </tr>
+    }
+    </tbody>
+</table>
+

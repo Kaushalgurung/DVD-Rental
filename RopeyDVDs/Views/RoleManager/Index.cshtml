@@ -1,0 +1,31 @@
+﻿@model System.Collections.Generic.List<Microsoft.AspNetCore.Identity.IdentityRole>
+
+@{
+    ViewBag.Title = "Role Manager";
+    Layout = "_Layout";
+}
+
+<h2>Role Manager</h2>
+<form method="post" asp-action="AddRole" asp-controller="RoleManager">
+    <label for="roleName">Role Name</label>
+    <input type="text" name="roleName">
+    <button>Add New Role</button>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Role</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var role in Model)
+    {
+        <tr>
+            <td>@role.Id</td>
+            <td>@role.Name</td>
+        </tr>
+    }
+    </tbody>
+</table>

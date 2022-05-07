@@ -1,0 +1,344 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RopeyDVDs
+build_property.RootNamespace = RopeyDVDs
+build_property.ProjectDir = C:\Sakyoo be\RopeyDVDs\RopeyDVDs\RopeyDVDs\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Sakyoo be\RopeyDVDs\RopeyDVDs\RopeyDVDs
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Actors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Actors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Actors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/CastMembers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdE1lbWJlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/CastMembers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdE1lbWJlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/CastMembers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdE1lbWJlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/CastMembers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdE1lbWJlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/CastMembers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdE1lbWJlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCopies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ29waWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCopies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ29waWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCopies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ29waWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCopies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ29waWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDCopies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ29waWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDCopiesOnLoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRENvcGllc09uTG9hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDDetailsSearchByCopyNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRERldGFpbHNTZWFyY2hCeUNvcHlOdW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDOlderThan365Days.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRE9sZGVyVGhhbjM2NURheXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDOnSelves.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRE9uU2VsdmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDSearchByMemberName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRFNlYXJjaEJ5TWVtYmVyTmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDTitleSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRFRpdGxlU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/DVDWithNoLoanFor31Days.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXERWRFdpdGhOb0xvYW5Gb3IzMURheXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/DVDTitles/ReturnDVD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVzXFJldHVybkRWRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Loans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Loans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Loans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Loans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Loans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/LoanTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/LoanTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/LoanTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/LoanTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/LoanTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MemberLoans/MemberLoanDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTG9hbnNcTWVtYmVyTG9hbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MemberLoans/MemberWithNoLoanFor31Days.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTG9hbnNcTWVtYmVyV2l0aE5vTG9hbkZvcjMxRGF5cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MembershipCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MembershipCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcENhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MembershipCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcENhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MembershipCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/MembershipCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcENhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Members/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Members/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Members/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Members/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Members/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Producers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Producers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Producers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Producers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Producers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/RoleManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZU1hbmFnZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Studios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Studios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Studios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Studios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Studios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Sakyoo be/RopeyDVDs/RopeyDVDs/RopeyDVDs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8kh4p8jrt5

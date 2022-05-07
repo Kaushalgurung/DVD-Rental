@@ -1,0 +1,26 @@
+﻿@model System.Collections.Generic.List<RopeyDVDs.Models.DVDCopy>
+@{
+    ViewBag.Title = "DVD Older Than 365 Days";
+    Layout = "_Layout";
+}
+
+<h2>DVD Older Than 365 Days</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>DVD Title</th>
+        <th>Copy Number</th>
+        <th>Date Purchased</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.DVDTitle.TitleName</td>
+            <td>@item.CopyNumber</td>
+            <td>@item.DatePurchased</td>
+        </tr>
+    }
+    </tbody>
+</table>

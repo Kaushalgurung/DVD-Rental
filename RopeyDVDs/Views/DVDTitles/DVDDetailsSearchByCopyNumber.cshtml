@@ -1,0 +1,101 @@
+﻿@model RopeyDVDs.Models.Loan
+
+@{
+    ViewData["Title"] = "Details";
+
+}
+
+@using (Html.BeginForm())
+{
+    <p>
+        Enter Copy Number : <input type="number" asp-for="CopyNumber" name="copyNumber"/>  
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Last Loan</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DVDCopy.DVDTitle.TitleName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DVDCopy.DVDTitle.TitleName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Member.MemberFirstName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Member.MemberFirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Member.MemberLastName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Member.MemberLastName)
+        </dd>
+        <dt class = "col-sm-2">
+            Returned?
+        </dt >
+        <dd class = "col-sm-10">
+            @if (Model == null)
+            {
+                
+            }
+            else if(Model.ReturnedDate == null)
+            {
+                @Html.Encode("No");
+            }
+            else
+            {
+                @Html.Encode("Yes");
+            }
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LoanNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LoanNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateOut)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateOut)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateDue)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateDue)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ReturnedDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ReturnedDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LoanTypeNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LoanTypeNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CopyNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CopyNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MemberNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MemberNumber)
+        </dd>
+    </dl>
+</div>
+

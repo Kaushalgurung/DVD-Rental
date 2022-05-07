@@ -1,0 +1,65 @@
+﻿@model RopeyDVDs.Models.DVDTitle
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DVDTitle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CategoryNumber" class="control-label"></label>
+                <select asp-for="CategoryNumber" class ="form-control" asp-items="ViewBag.CategoryNumber"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudioNumber" class="control-label"></label>
+                <select asp-for="StudioNumber" class ="form-control" asp-items="ViewBag.StudioNumber"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProducerNumber" class="control-label"></label>
+                <select asp-for="ProducerNumber" class ="form-control" asp-items="ViewBag.ProducerNumber"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TitleName" class="control-label"></label>
+                <input asp-for="TitleName" class="form-control" />
+                <span asp-validation-for="TitleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateReleased" class="control-label"></label>
+                <input asp-for="DateReleased" class="form-control" />
+                <span asp-validation-for="DateReleased" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StandardCharge" class="control-label"></label>
+                <input asp-for="StandardCharge" class="form-control" />
+                <span asp-validation-for="StandardCharge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateAdded" class="control-label"></label>
+                <input asp-for="DateAdded" class="form-control" />
+                <span asp-validation-for="DateAdded" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PenaltyCharge" class="control-label"></label>
+                <input asp-for="PenaltyCharge" class="form-control" />
+                <span asp-validation-for="PenaltyCharge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="DVDDetails">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

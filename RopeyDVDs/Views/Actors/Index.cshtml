@@ -1,0 +1,41 @@
+﻿@model IEnumerable<RopeysDVD.Models.Actor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorSurname)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorSurname)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ActorNumber">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ActorNumber">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ActorNumber">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@model System.Collections.Generic.List<RopeyDVDs.Models.DVDTitle>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>DVD Details</h2>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table>
+    <thead>
+    <tr>
+        <th>DVD Title</th>
+        <th>Studio Name</th>
+        <th>Producer Name</th>
+        @*<th>Studio Name</th>*@
+        <th>Release Date</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.TitleName</td>
+            <td>@item.Studio.StudioName</td>
+            <td>@item.Producer.ProducerName</td>
+            <td>@item.actors</td>
+            <td>@item.DateReleased</td>
+            <td role="group" class="text-center">
+                <a class="btn btn-warning mx-3" asp-controller="DVDTitles" asp-action="Edit" asp-route-id="@item.DVDNumber"><i class="bi bi-pencil-square fs-3"></i></a>
+                <a class="btn btn-danger" asp-controller="DVDTitles" asp-action="Delete" asp-route-id="@item.DVDNumber"><i class="bi bi-trash fs-3"></i></a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

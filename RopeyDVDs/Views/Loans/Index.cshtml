@@ -1,0 +1,71 @@
+﻿@model IEnumerable<RopeyDVDs.Models.Loan>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateDue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReturnedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DVDCopy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Member)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateDue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReturnedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanType.LoanDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DVDCopy.CopyNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Member.MemberAddress)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LoanNumber">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LoanNumber">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LoanNumber">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

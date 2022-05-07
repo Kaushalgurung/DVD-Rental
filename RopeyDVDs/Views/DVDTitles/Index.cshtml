@@ -1,0 +1,77 @@
+﻿@model IEnumerable<RopeyDVDs.Models.DVDTitle>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TitleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateReleased)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StandardCharge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateAdded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PenaltyCharge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DVDCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Studio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Producer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TitleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateReleased)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StandardCharge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateAdded)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PenaltyCharge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DVDCategory.AgeRestricted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Studio.StudioName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Producer.ProducerName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DVDNumber">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DVDNumber">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DVDNumber">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RopeyDVDs</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RopeyDVDs.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RopeyDVDs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Add Data
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Actors" asp-action="Index">Actor</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Studios" asp-action="Index">Studio</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Producers" asp-action="Index">Producer</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDCategories" asp-action="Index">DVD Category</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="LoanTypes" asp-action="Index">Loan Type</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="MembershipCategories" asp-action="Index">Membership Category</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Foreign Key CRUD
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="CastMembers" asp-action="Index">Cast Members</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDCopies" asp-action="Index">DVD Copies</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Members" asp-action="Index">Member</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Loans" asp-action="Index">Loan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                DVD Data
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDTitleSearch">Search DVD</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDOnSelves">Search DVD on Shelves</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDDetails">DVD Details</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDSearchByMemberName">DVD Search By Member Name</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDWithNoLoanFor31Days">DVD With No Loan For 31 Days</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDOlderThan365Days">DVD Older than 365 Days</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDCopiesOnLoan">DVD Copies On Loan</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="DVDTitles" asp-action="DVDDetailsSearchByCopyNumber">DVD Details Search By Copy Number</a></li>
+                            </ul>
+                        </li>                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Member Data
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="MemberLoans" asp-action="MemberLoanDetails">Member Loan Details</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="MemberLoans" asp-action="MemberWithNoLoanFor31Days">Member With No Loan For 31 Days</a></li>
+                             
+                            </ul>
+                        </li>
+                        @*<li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Actors" asp-action="Index">Actor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Studios" asp-action="Index">Studio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DVDTitles" asp-action="Index">DVDTitle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Members" asp-action="Index">Members</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DVDTitle" asp-action="DVDTitleSearch">DVDSearch</a> 
+                        </li>*@
+
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - RopeyDVDs - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
